@@ -1,14 +1,57 @@
 # AWS-IAM-User-Management-with-Terraform
+
 ## 📌 Project Overview
 
 This project demonstrates how to **automate AWS IAM user, group, and access management using Terraform**.
 The entire IAM setup is driven by a CSV file, making it scalable, repeatable, and ideal for real-world enterprise environments.
 
-The solution dynamically creates IAM users, assigns them to groups, configures console access, and applies metadata using tags — all with infrastructure as code principles.
+The solution dynamically creates IAM users,configures console access and applies metadata using tags — all with infrastructure as code principles.
 
 This project is inspired by real-world identity management use cases and closely aligns with how organizations manage access at scale.
 
 ---
+## Architecture Diagram
+![Architecture](screenshots/01-terraform-init.png)
+
+# 📸 Proof of Work – AWS IAM User Management with Terraform
+
+This section documents the complete implementation using screenshots captured during execution.
+
+---
+
+## 🔹 1. Terraform Initialization
+
+**Description:**
+Terraform backend initialized using an S3 remote backend with versioning enabled.
+
+![Terraform Init](screenshots/01-terraform-init.png)
+
+---
+
+## 🔹 2. Terraform Plan Output
+
+**Description:**
+Preview of infrastructure changes before applying them.
+
+
+![Terraform Plan](screenshots/02-terraform-plan.png)
+
+---
+
+## 🔹 3. Terraform Apply Execution
+
+**Description:**
+Successful creation of IAM users, groups, and related resources.
+
+![Terraform Apply](screenshots/03-terraform-apply.png)
+
+---
+
+## 🔹 4. IAM Users Created
+
+**Description:**
+Verification of IAM users created dynamically from the CSV file.
+![IAM Users](screenshots/04-iam-users.png)
 
 ## 🚀 Key Features
 
