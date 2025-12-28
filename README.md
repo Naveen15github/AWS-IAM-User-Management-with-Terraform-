@@ -11,7 +11,7 @@ This project is inspired by real-world identity management use cases and closely
 
 ---
 ## Architecture Diagram
-![Architecture](screenshots/01-terraform-init.png)
+![Architecture](https://github.com/Naveen15github/AWS-IAM-User-Management-with-Terraform-/blob/a43f818932a952a5f745e025d6044b2bf6958550/Gemini_Generated_Image_2y8gms2y8gms2y8g.png)
 
 # 📸 Proof of Work – AWS IAM User Management with Terraform
 
@@ -24,7 +24,7 @@ This section documents the complete implementation using screenshots captured du
 **Description:**
 Terraform backend initialized using an S3 remote backend with versioning enabled.
 
-![Terraform Init](screenshots/01-terraform-init.png)
+![Terraform Init](https://github.com/Naveen15github/AWS-IAM-User-Management-with-Terraform-/blob/a43f818932a952a5f745e025d6044b2bf6958550/Screenshot%20(270).png)
 
 ---
 
@@ -34,7 +34,7 @@ Terraform backend initialized using an S3 remote backend with versioning enabled
 Preview of infrastructure changes before applying them.
 
 
-![Terraform Plan](screenshots/02-terraform-plan.png)
+![Terraform Plan](https://github.com/Naveen15github/AWS-IAM-User-Management-with-Terraform-/blob/a43f818932a952a5f745e025d6044b2bf6958550/Screenshot%20(271).png)
 
 ---
 
@@ -43,7 +43,7 @@ Preview of infrastructure changes before applying them.
 **Description:**
 Successful creation of IAM users, groups, and related resources.
 
-![Terraform Apply](screenshots/03-terraform-apply.png)
+![Terraform Apply](https://github.com/Naveen15github/AWS-IAM-User-Management-with-Terraform-/blob/a43f818932a952a5f745e025d6044b2bf6958550/Screenshot%20(272).png)
 
 ---
 
@@ -51,7 +51,7 @@ Successful creation of IAM users, groups, and related resources.
 
 **Description:**
 Verification of IAM users created dynamically from the CSV file.
-![IAM Users](screenshots/04-iam-users.png)
+![IAM Users](https://github.com/Naveen15github/AWS-IAM-User-Management-with-Terraform-/blob/a43f818932a952a5f745e025d6044b2bf6958550/Screenshot%20(274).png)
 
 ## 🚀 Key Features
 
